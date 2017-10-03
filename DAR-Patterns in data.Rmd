@@ -1,7 +1,7 @@
 ---
 title: "Who does more pushups"
-author: "your name"
-date: "March 8"
+author: "Bianca A. Barnett"
+date: "September 30, 2017"
 output: html_document
 ---
 
@@ -29,26 +29,37 @@ Line players are on the offensive or defensive line.  They need to be a certain 
 Our Research Question is:
 
   >Who does more pushups, on average: a line player or a skill player?
-
+  
+### summary
+According to the data, we will be measuring the player's weight and the player's position. 
 
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-
-
-
+The technique for methods that I would be using is the variable anaylsis for graphical will be the geombox plot and for the numerical I will be using favstats to attain numerical data. 
 
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
 
 
+
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
 
+```{r}
+myex <- ggplot(pushups, aes(x=position, y=weight))
+myex + geom_boxplot()
+myex + geom_violin()
+```
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+```{r}
+favstats(pushups~position,data=pushups)
+```
 
 
 # Inferential Results
