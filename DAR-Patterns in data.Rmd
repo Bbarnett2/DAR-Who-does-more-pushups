@@ -58,3 +58,6 @@ Our Research Question is:
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
 
+The overall conclusion of the statistical data it has been determined that there are more skilled players than there are line players. So as a result, do you think that the reason skilled players do more pushups than line players?
+
+In the overall result, it was concluded that skilled players did more pushups than line players. The percentage that came as a result the mean for skilled players were 45.5 and the mean for line players 15.5. 
